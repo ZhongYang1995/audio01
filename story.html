@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<!--I'm a comment-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yang Zhong" />
+    <meta name="description" content="All download from Youtube" />
+    <meta name="keywords" content="audio files" />
+    <title> 互联网故事 </title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <ul>
+            <li> <a href="index.html" > 首页 </a> </li>
+            <li> <a href="kepu.html"> 经济科普 </a> </li>
+            <li> <a href="story.html" class="active">  互联网商业故事 </a></li>
+            <li class="icon">
+                <a href="javascript:void(0);" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="locations">
+            <div>
+                <h2>互联网公司</h2>
+                <img src="assets/baidu_unit.jpg" alt="picture" />
+                <p>
+                    沦为计量单位的百度：
+                </p>
+                <audio controls>
+                    <source src="assets/baidu.mp3" type="audio/mp3">
+                </audio>
+                <p>
+                    美团与阿里巴巴的恩怨：
+                </p>
+                <audio controls>
+                    <source src="assets/meituan.mp3" type="audio/mp3">
+                </audio>
+                <p>
+                    今日头条与BAT：
+                </p>
+                <audio controls>
+                    <source src="assets/toutiao.mp3" type="audio/mp3">
+                </audio>
+                
+            </div>
+        </div>
+    </main>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            }
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>

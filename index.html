@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<!--I'm a comment-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Yang Zhong" />
+    <meta name="description" content="All download from Youtube" />
+    <meta name="keywords" content="audio files" />
+    <title> 财经评论搜集 </title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <ul>
+            <li> <a href="index.html" class="active"> 首页 </a> </li>
+            <li> <a href="kepu.html"> 经济科普 </a> </li>
+            <li> <a href="story.html">  互联网商业故事 </a></li>
+            <li class="icon">
+                <a href="javascript:void(0);" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1> 财经评论搜集 </h1>
+        <div class="intro">
+            <div>
+                <p class="topic">  所有资料来源于Youtube，比较片面。</p>
+            </div>
+        </div>
+        <div class="locations">
+            <div>
+                <h2>中国房地产分析</h2>
+                <img src="assets/estate.jpg" alt="picture" />
+                <p>
+                    蒙面财经（上）开发商-银行-地方政府：
+                </p>
+                <audio controls>
+                    <source src="assets/30.mp3" type="audio/mp3">
+                </audio>
+                <p>
+                    蒙面财经（中）最后倒下：
+                </p>
+                <audio controls>
+                    <source src="assets/31.mp3" type="audio/mp3">
+                </audio>
+                <p>
+                    蒙面财经（下）在假象被公众认清之前退出游戏：
+                </p>
+                <audio controls>
+                    <source src="assets/32.mp3" type="audio/mp3">
+                </audio>
+                <p>
+                    人人都该懂的经济学 房价：
+                </p>
+                <audio controls>
+                    <source src="assets/estate01.mp3" type="audio/mp3">
+                </audio>
+                <p>
+                    人人都该懂的经济学 实体经济与房地产：
+                </p>
+                <audio controls>
+                    <source src="assets/estate02.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div>
+                <h2>通胀还是紧缩</h2>
+                <img src="assets/data.jpg" alt="picture" />
+                <p>
+                    蒙面财经 5月CPI，PPI：
+                </p>
+                <audio controls>
+                    <source src="assets/71.mp3" type="audio/mp3">
+                </audio>
+                <p>
+                    蒙面财经 一半冰山一半火海：
+                </p>
+                <audio controls>
+                    <source src="assets/jinsuo.mp3" type="audio/mp3">
+                </audio>
+                <p>
+                    蒙面财经 天量放水，钱去了哪儿：
+                </p>
+                <audio controls>
+                    <source src="assets/40.mp3" type="audio/mp3">
+                </audio>
+
+            </div>
+        </div>
+    </main>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            }
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
